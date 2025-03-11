@@ -5,9 +5,9 @@
 	 */
 
 	namespace sfedosimov\daysago;
-	use yii\base\Object;
+	use yii\base\BaseObject;
 
-	class DaysAgo extends Object
+	class DaysAgo extends BaseObject
 	{
 		public $format_in = 'd.m.Y';
 		public $past_prefix = '';
